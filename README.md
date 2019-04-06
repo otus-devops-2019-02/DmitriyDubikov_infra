@@ -22,5 +22,3 @@ Host someinternalhost
      ProxyCommand ssh -W %h:%p ddi1@34.76.0.203
 
 Пример запуска:ssh someinternalhost
-
-Взято из https://habr.com/en/post/122445/
