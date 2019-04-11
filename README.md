@@ -1,6 +1,9 @@
 # DmitriyDubikov_infra
 DmitriyDubikov Infra repository
 
+testapp_IP=35.204.140.200
+testapp_port=9292
+
 Домашнее задание 6
 Создаём инстанс
 
@@ -17,7 +20,3 @@ gcloud compute instances create reddit-app
 install_ruby.sh
 install_mongodb
 deploy.sh
-
-для проверки:
-testapp_IP=35.204.140.200
-testapp_port=9292
