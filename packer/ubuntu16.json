@@ -1,6 +1,5 @@
 {
  "variables":{
-    "type": "",
     "project_id":"",
     "image_name": "",
     "image_family": "",
