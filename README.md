@@ -1,6 +1,27 @@
 # DmitriyDubikov_infra
 DmitriyDubikov Infra repository
 
+testapp_IP=35.204.140.200
+testapp_port=9292
+
+Домашнее задание 6
+Создаём инстанс
+
+gcloud compute instances create reddit-app
+ --boot-disk-size=10GB
+ --image-family ubuntu-1604-lts
+ --image-project=ubuntu-os-cloud
+ --machine-type=g1-small
+ --tags puma-server
+ --restart-on-failure
+ --metadata-from-file startup-script=startup_script.sh
+
+Создал скрипты:
+install_ruby.sh
+install_mongodb
+deploy.sh
+=======
+
 bastion_IP = 34.76.0.203
 someinternalhost_IP = 10.132.0.3
 
@@ -22,3 +43,4 @@ Host someinternalhost
      ProxyCommand ssh -W %h:%p ddi1@34.76.0.203
 
 Пример запуска:ssh someinternalhost
+
