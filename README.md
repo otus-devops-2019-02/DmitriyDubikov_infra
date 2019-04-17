@@ -1,6 +1,13 @@
 # DmitriyDubikov_infra
 DmitriyDubikov Infra repository
 
+ДЗ №8 Terraform-1
+
+Установил terraform
+
+Подготовил скрипты по созданию и настройке экземпляра ВМ
+
+После добавления через web интерфейс ssh ключа и выполнения terraform apply он удаляется.
 
 ДЗ №7 Packer
 
