@@ -78,7 +78,4 @@ resource "google_compute_instance" "app" {
   }
 }
 
-resource "google_compute_project_metadata_item" "default" {
-  key   = "ssh-keys"
-  value = "appuser:${file(var.public_key_path)} \n appuser2:${file(var.public_key_path)} \n appuser3:${file(var.public_key_path)}"
-}
+
