@@ -1,5 +1,4 @@
 {
- "type": "googlecompute",
  "project_id": "infra-666666",
  "image_name": "reddit-base-{{timestamp}}",
  "image_family": "reddit-base",
@@ -12,3 +11,4 @@
  "network": "default",
  "tags": "puma-server"
  }
+
