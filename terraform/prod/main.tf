@@ -9,7 +9,7 @@ provider "google" {
 
   # ID проекта
   project = "${var.project}"
-  region  = "${var.region}"
+  region  = "europe-west1"
 }
 
 module "app" {
