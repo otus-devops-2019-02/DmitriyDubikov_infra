@@ -1,5 +1,11 @@
 # DmitriyDubikov_infra
 DmitriyDubikov Infra repository
+ДЗ №9 Terraform-2
+
+Создал 2 ВМ reddit-app и reddit-db
+Научился делить конфиграцию на модули
+Проверил соединения с ВМ по SSH с разными настройками из prod и stage
+
 
 ДЗ №8 Terraform-1
 
