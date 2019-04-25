@@ -1,5 +1,14 @@
 # DmitriyDubikov_infra
 DmitriyDubikov Infra repository
+
+ДЗ №10 Ansible-1
+Установил ansible и с помощью него выполнил несколько комманд на инстансе ВМ
+
+при запуске ansible-playbook clone.yml получили ошибку, так как каталог такой уже существовал
+
+Комманда ansible app -m command -a 'rm -rf ~/reddit' удалила каталог и после этого репозиторий выгрузился без ошибок
+
+
 ДЗ №9 Terraform-2
 
 Создал 2 ВМ reddit-app и reddit-db
