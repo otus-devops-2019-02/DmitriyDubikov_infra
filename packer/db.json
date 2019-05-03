@@ -34,7 +34,7 @@
     },
  {
  "type": "ansible-local",
- "playbook_file": "/ansible/packer_db.yml"
+ "playbook_file": "ansible/packer_db.yml"
  }
  ]
 }
