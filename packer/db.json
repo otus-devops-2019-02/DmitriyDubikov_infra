@@ -23,12 +23,19 @@
  }
  ],
 "provisioners": [
+{
+      "type": "shell",
+      "inline": [
+        "sudo apt-get update",
+        "sudo apt-get install -y software-properties-common",
+        "sudo apt-add-repository ppa:ansible/ansible",
+        "sudo apt-get update",
+        "sudo apt-get install -y ansible"]
+    },
  {
- "type": "shell",
- "script": "scripts/install_mongodb.sh",
- "execute_command": "sudo {{.Path}}"
+ "type": "ansible-local",
+ "playbook_file": "../ansible/packer_db.yml"
  }
-
  ]
 }
 
