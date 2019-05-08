@@ -1,4 +1,4 @@
-db_host: 10.132.0.59 # <-- подставьте сюда ваш IP
+db_host: 10.132.0.61 # <-- подставьте сюда ваш IP
 nginx_sites:
   default:
     - listen 80
