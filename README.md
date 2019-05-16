@@ -1,6 +1,18 @@
 # DmitriyDubikov_infra
 DmitriyDubikov Infra repository
 
+ДЗ №13 Ansible-4
+
+Установили Vagrant, VirtualBox, Molecule, Testinfra
+(Пришлось заменить компьютер и повторить установку всех пакетов,
+так как не все ноуты поддерживают виртуализацию :-()
+
+С помощью Vagrant создали 2 ВМ на локальной машине
+Проверили соединение по SSH
+
+Протестировали роли при помощи Molecule и Testinfra
+
+
 ДЗ №12 Ansible-3
 
 На основе созданных плейбуков создали роли
