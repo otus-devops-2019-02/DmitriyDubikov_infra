@@ -25,17 +25,10 @@
 
 "provisioners": [
     {
-      "type": "shell",
-      "inline": [
-        "sudo apt-get update",
-        "sudo apt-get install -y software-properties-common",
-        "sudo apt-add-repository ppa:ansible/ansible",
-        "sudo apt-get update",
-        "sudo apt-get install -y ansible"]
-    },
-    {
-      "type": "ansible-local",
-      "playbook_file": "ansible/playbooks/packer_app.yml"
+      "type": "ansible",
+      "playbook_file": "ansible/playbooks/packer_app.yml",
+      "extra_arguments": ["--tags","ruby"],
+      "ansible_env_vars": ["ANSIBLE_ROLES_PATH={{ pwd }}/ansible/roles"]
     }
   ]
 }
